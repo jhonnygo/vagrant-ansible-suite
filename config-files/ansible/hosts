@@ -1,0 +1,18 @@
+[all]
+ansible-srv ansible_host=192.168.10.2 ansible_user=vagrant
+ansible-01 ansible_host=192.168.10.3 ansible_user=vagrant
+ansible-02 ansible_host=192.168.10.4 ansible_user=vagrant
+ansible-03 ansible_host=192.168.10.5 ansible_user=vagrant
+ansible-04 ansible_host=192.168.10.6 ansible_user=vagrant
+
+[grupo1]
+ansible-01 ansible_host=192.168.10.3 ansible_user=vagrant
+
+[grupo2]
+ansible-02 ansible_host=192.168.10.4 ansible_user=vagrant
+
+[grupo3]
+ansible-03 ansible_host=192.168.10.5 ansible_user=vagrant
+
+[grupo4]
+ansible-04 ansible_host=192.168.10.6 ansible_user=vagrant

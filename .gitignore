@@ -1,0 +1,15 @@
+# Copyright (c) 2023-present JHONCYTECH <jhonny@jhoncytech.com>
+#
+# For the full copyright and license information, please view the LICENSE
+# file that was distributed with this source code.
+
+# @author Jhonny Gomez (JhonnyGO) <jhonny@jhoncytech.com>
+
+.vagrant
+shared-folder/keys/*
+!shared-folder/keys/.gitkeep
+*.box
+**.bkp
+**.psd
+**.drawio
+**.vmdk
