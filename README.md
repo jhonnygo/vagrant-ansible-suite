@@ -19,7 +19,7 @@ Para lograr esto se ha creado un box que levanta un conjunto de cinco maquinas v
     <img src="img/virtualbox.jpg?raw=true" alt="Virtualbox" width="500px" />
 </div>
 
-Lo anterior nos permitira mediante el uso de Ansible para realizar pruebas de control.
+Lo anterior nos permitira realizar pruebas de control utilizando Ansible.
 
 ---
 ### :sparkler: <u>Entorno del box</u>
