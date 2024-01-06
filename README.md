@@ -129,6 +129,10 @@ Creamos un archivo en la vm2 o ansible-01
 ~~~
 ansible ansible-01 -m copy -b -a 'content="Ansible Managed\n" dest=/var/mi-archivo.txt'
 ~~~
+Veremos un resultado como se muestra a continuación lo cual significa que se ha realizado correctamente la operación.
+<div align="left">
+    <img src="img/ansible-test.jpg?raw=true" alt="Ansible Test 2" width="500px" />
+</div>
 
 Ahora accedemos a la vm2 o ansible-01 para comprobar
 ~~~
